@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sort Algorithms</title>
+</head>
+<body>
+    <div id="main">
+        <div id="container">
+            <h1>Sorting Algorithms</h1>
+            <div id="controls">
+                <div id="selectNr">
+                    <h2>Choose number of elements to sort</h2>
+                    <input type="range" min="10" max="120" value="30" class="slider">
+                    <div id="changeAmount">
+                        <h3 class="valueOfSlider">30</h3>
+                        <h3> Numbers</h3>
+                        <button id="changeNrOfElements" class="btn">Change Amount of Numbers</button>
+                    </div>
+                </div>
+                <button id="randomBtn" class="btn">Random Numbers</button>
+                <button id="insertionBtn" class="btn">Insertion Sort</button>
+                <button id="deleteDivs" class="btn">Delete Numbers</button>
+            </div>
+            <div id="elements">
+                <!--
+                    <div class="number"></div>
+                -->
+            </div>
+            <div id="numbers">
+                <!--
+                    <p class="nr"></p>
+                -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
